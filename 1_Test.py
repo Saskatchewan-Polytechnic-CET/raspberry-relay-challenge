@@ -4,8 +4,8 @@ from time import sleep
 
 # Chase LEDs
 leds = LEDBoard(1, 12, 16, 20, 21)
-while True:
-    for i in range(2):
+for i in range(20):
+    for j in range(2):
         for led in leds:
             led.on()
             sleep(0.1)
